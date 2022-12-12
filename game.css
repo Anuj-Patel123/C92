@@ -1,0 +1,65 @@
+body
+{
+	background:url(blue-pattern.jpg);
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name_HID , #player2_name_HID
+{
+	display: inline-block;
+	margin-left: 20px;
+	font: bold;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+#btn {
+	background-color: midnightblue;
+	border-radius: 20px;
+	color:white;
+	height:50px;
+	font-size: 20px;
+	transition-duration: 0.4s;
+	font:oblique;
+}
+#btn:hover {
+	background-color:aqua;
+	transition: 0.4s;
+}
+#btn:active {
+	background-color:midnightblue;
+	box-shadow: 0 3px aqua;
+	transform: translateY(4px);
+	transition: 0.4s;
+}
+
+#number_two {
+background-image:url(blue-pattern.jpg);
+}
+
+#player1_score , #player2_score {
+	font-size: 20px;
+	font:bold
+}
